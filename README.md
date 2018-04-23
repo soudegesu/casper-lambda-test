@@ -16,7 +16,7 @@ npm install
 
 ## Execute
 ### Environment Variable
-`export` the following parameters as a environment variable.
+`export` the following parameters as environment variables.
 
 |variable name  |meaning                                                 | sample value   |
 |---------------|--------------------------------------------------------|----------------|
@@ -27,7 +27,7 @@ npm install
 
 ### Execute In local
 #### Precondition
-Before doing the following you need to set credential information for AWS. Please see this [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html).
+Before doing the following you need to set credential information for AWS. Please see [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html).
 
 #### Edit Parameters
 

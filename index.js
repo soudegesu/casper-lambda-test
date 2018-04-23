@@ -68,8 +68,9 @@ exports.handler = function (event, context) {
             // Upload capture image .png files
             console.log('Upload capture files');
             fs.readdir(TMP, function(err, files){
-                if (err) console.log(err);
-                console.log(files);
+                if (err) {
+                    console.log(err);
+                }
                 let fileList = files.filter(function(file){
                     return /.*\.png$/.test(file);
                 })

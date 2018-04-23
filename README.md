@@ -12,3 +12,14 @@ This program is made with reference to [node-casperjs-aws-lambda](https://github
 ```
 npm install
 ```
+
+## Execute
+### Environment Variable
+`export` the following parameters as a environment variable.
+
+|variable name  |meaning                                                 | sample value   |
+|===============|========================================================|================|
+|TMP            |Directory to put file temporary                         |/tmp/           |
+|SNAPSHOT_BUCKET|bucket name to upload capured file                      |hogehoge-bucket |
+|SNAPSHOT_DIR   |bucket folder to upload capured file on SNAPSHOT_BUCKET | result/        |
+|AWS_REGION     |AWS Region bucket exists                                | ap-northeast-1 |

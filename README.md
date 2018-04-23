@@ -19,7 +19,7 @@ npm install
 `export` the following parameters as a environment variable.
 
 |variable name  |meaning                                                 | sample value   |
-|===============|========================================================|================|
+|---------------|--------------------------------------------------------|----------------|
 |TMP            |Directory to put file temporary                         |/tmp/           |
 |SNAPSHOT_BUCKET|bucket name to upload capured file                      |hogehoge-bucket |
 |SNAPSHOT_DIR   |bucket folder to upload capured file on SNAPSHOT_BUCKET | result/        |
